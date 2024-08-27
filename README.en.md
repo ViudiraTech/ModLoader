@@ -1,36 +1,35 @@
 # ModLoader
 
-#### Description
-提供DLL型模组加载与运行时环境
+ModLoader is a dynamic module loader for the Windows platform, designed to load DLL modules dynamically. It is open-sourced under the MIT license and was written by MicroFish on August 26, 2024.
 
-#### Software Architecture
-Software architecture description
+## Features
 
-#### Installation
+- Dynamically find and load DLL files.
+- Provide functionality for finding and executing the entry point of a module.
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+## Usage
 
-#### Instructions
+1. Place the ModLoader.c and ModLoader.h files into your project.
+2. Ensure your modules adhere to the `MOD_ENTRY` function specification, which should return an integer.
+3. Use the `ModFind` function to find all DLL files in a specified path.
+4. Use the `ModLoad` function to load and execute a module by index.
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+## Compilation Guide
 
-#### Contribution
+1. Make sure your development environment supports C language development.
+2. Compile the ModLoader.c file using Visual Studio or another C compiler.
+3. Place the resulting DLL file in a path accessible by your application.
 
-1.  Fork the repository
-2.  Create Feat_xxx branch
-3.  Commit your code
-4.  Create Pull Request
+## Contributing
 
+We welcome contributions in any form, including but not limited to code, documentation, testing, and bug reports.
 
-#### Gitee Feature
+## License
 
-1.  You can use Readme\_XXX.md to support different languages, such as Readme\_en.md, Readme\_zh.md
-2.  Gitee blog [blog.gitee.com](https://blog.gitee.com)
-3.  Explore open source project [https://gitee.com/explore](https://gitee.com/explore)
-4.  The most valuable open source project [GVP](https://gitee.com/gvp)
-5.  The manual of Gitee [https://gitee.com/help](https://gitee.com/help)
-6.  The most popular members  [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+This project is licensed under the GPL-3.0 license, with all rights reserved by ViudiraTech.
+
+## Contact Us
+
+For any questions or suggestions, please contact us through the following channels:
+- Email: [f13208471983@163.com](mailto:2609948707@qq.com)
+- Forum: [http://ViudiraTech.中国/](#)

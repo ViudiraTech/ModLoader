@@ -1,3 +1,14 @@
+/*
+ *
+ *		resource.rc
+ *		目标文件资源信息定义
+ *
+ *		2024/8/27 By MicroFish
+ *		基于 MIT 开源协议
+ *		Copyright 2020 ViudiraTech，保留所有权利。
+ *
+ */
+
 #include <windows.h>
 
 1 VERSIONINFO

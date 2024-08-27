@@ -1,37 +1,35 @@
 # ModLoader
 
-#### 介绍
-提供DLL型模组加载与运行时环境
+ModLoader 是一个基于 Windows 平台的模块加载器，用于动态加载 DLL 模块。它遵循 MIT 开源协议，由 MicroFish 于 2024 年 8 月 26 日编写。
 
-#### 软件架构
-软件架构说明
+## 功能
 
+- 动态查找并加载 DLL 文件。
+- 提供模块的入口点查找和执行功能。
 
-#### 安装教程
+## 使用方法
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1. 将 ModLoader.c 和 ModLoader.h 文件放置到您的项目中。
+2. 确保您的模块遵循 `MOD_ENTRY` 函数的规范，即返回一个整数。
+3. 使用 `ModFind` 函数查找指定路径下的所有 DLL 文件。
+4. 使用 `ModLoad` 函数按索引加载并执行模块。
 
-#### 使用说明
+## 编译指南
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1. 确保您的开发环境支持 C 语言开发。
+2. 使用 Visual Studio 或其他 C 编译器编译 ModLoader.c 文件。
+3. 将生成的 DLL 文件放置到您的应用程序可访问的路径。
 
-#### 参与贡献
+## 贡献
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+我们欢迎任何形式的贡献，包括但不限于代码、文档、测试和 bug 报告。
 
+## 许可
 
-#### 特技
+本项目遵循 GPL-3.0 开源协议，由 ViudiraTech 版权所有，保留所有权利。
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+## 联系我们
+
+如有任何问题或建议，请通过以下方式联系我们：
+- 邮箱：[f13208471983@163.com](mailto:2609948707@qq.com)
+- 官网：[http://ViudiraTech.中国/](#)

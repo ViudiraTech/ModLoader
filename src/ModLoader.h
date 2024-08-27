@@ -4,7 +4,7 @@
  *		Mod加载器程序头文件
  *
  *		2024/8/26 By MicroFish
- *		基于 GPL-3.0 开源协议
+ *		基于 MIT 开源协议
  *		Copyright 2020 ViudiraTech，保留所有权利。
  *
  */
