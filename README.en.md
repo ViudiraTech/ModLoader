@@ -31,5 +31,5 @@ This project is licensed under the GPL-3.0 license, with all rights reserved by 
 ## Contact Us
 
 For any questions or suggestions, please contact us through the following channels:
-- Email: [f13208471983@163.com](mailto:2609948707@qq.com)
+- Email: [f13208471983@163.com](mailto:f13208471983@163.com)
 - Forum: [http://ViudiraTech.中国/](#)
