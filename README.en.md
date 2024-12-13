@@ -26,7 +26,7 @@ We welcome contributions in any form, including but not limited to code, documen
 
 ## License
 
-This project is licensed under the GPL-3.0 license, with all rights reserved by ViudiraTech.
+This project is licensed under the GPL-3.0 license, with all rights interpretation reserved by ViudiraTech.
 
 ## Contact Us
 

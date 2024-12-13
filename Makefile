@@ -14,7 +14,7 @@ all: info res ModLoader done
 
 info:
 	@echo ModLoader(DLL型模组加载器) -- 脚本编译程序。
-	@echo Copyright 2020 ViudiraTech，保留所有权利。
+	@echo Copyright 2020 ViudiraTech，保留最终解释权。
 	@echo.
 
 res:

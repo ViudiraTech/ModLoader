@@ -26,7 +26,7 @@ ModLoader 是一个基于 Windows 平台的模块加载器，用于动态加载 
 
 ## 许可
 
-本项目遵循 GPL-3.0 开源协议，由 ViudiraTech 版权所有，保留所有权利。
+本项目遵循 GPL-3.0 开源协议，ViudiraTech保留最终解释权。
 
 ## 联系我们
 
